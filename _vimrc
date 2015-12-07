@@ -55,3 +55,8 @@ noremap <Left>  :echoe "Use h"<CR>
 noremap <Right> :echoe "Use l"<CR>
 noremap <Up>    :echoe "Use k"<CR>
 noremap <Down>  :echoe "Use j"<CR>
+
+inoremap <Left>  <NOP>
+inoremap <Right> <NOP>
+inoremap <Up>    <NOP>
+inoremap <Down>  <NOP>
