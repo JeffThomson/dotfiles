@@ -40,6 +40,9 @@ inoremap <Up>    <NOP>
 inoremap <Down>  <NOP>
 
 if has('win32')
+  "set windows specific options
+  
+  "ad git location to path for fugitive to work
   let $PATH .= ';' . 'U:\Staff\Jeff T\PA\PortableApps\GitPortable\App\Git\bin'
 endif
 
