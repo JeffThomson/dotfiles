@@ -38,3 +38,8 @@ inoremap <Left>  <NOP>
 inoremap <Right> <NOP>
 inoremap <Up>    <NOP>
 inoremap <Down>  <NOP>
+
+if has('win32')
+  let $PATH .= ';' . 'U:\Staff\Jeff T\PA\PortableApps\GitPortable\App\Git\bin'
+endif
+
