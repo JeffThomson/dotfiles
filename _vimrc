@@ -39,6 +39,9 @@ inoremap <Right> <NOP>
 inoremap <Up>    <NOP>
 inoremap <Down>  <NOP>
 
+set wildmenu
+set wildmode=longest:full,full
+
 if has('win32')
   "set windows specific options
   
