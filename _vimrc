@@ -9,6 +9,7 @@ behave mswin
 set anti enc=utf-8
 set guifont=Sauce_Code_Powerline:h11
 colorscheme gruvbox
+set background=dark
 syntax on
 set number
 set expandtab
@@ -16,7 +17,7 @@ set shiftwidth=2
 set softtabstop=2
 
 set list
-set listchars=eol:$
+set listchars=eol:$,nbsp:⎵
 
 set guioptions-=T  "remove toolbar
 set guioptions-=r  "remove right-hand scroll bar
